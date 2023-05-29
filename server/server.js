@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express()
 var port = process.env.PORT || 3000;
-var db = require('./db');
+//var db = require('./db');
 
 let products = [];
 let orders = [];
